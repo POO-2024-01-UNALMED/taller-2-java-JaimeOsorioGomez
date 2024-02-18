@@ -36,7 +36,7 @@ public class Auto {
 		
 		int cont = this.asientos.length;
 		
-		List<Asiento> = new Arraylist<>();
+		List<Asiento> lista = new ArrayList<>();
 		
 		if (this.motor.registro == this.registro) {
 			
@@ -51,8 +51,18 @@ public class Auto {
 			
 		}
 			
-	}
-		
+		for (int x = 0 ; x < this.asientos.length; x++) {
+			
+			if (lista.get(x).registro == lista.get(x+1).registro) {
+				
+				return "Auto original";
+				
+				
+			}
+					
+		}		
+	} 		
+		return "Las piezas no son originales";	
 	}
 }
 		
