@@ -34,6 +34,8 @@ public class Auto {
 	
 	String verificarIntegridad() {
 		
+		int a = 0;
+		
 		int cont = this.asientos.length;
 		
 		List<Asiento> lista = new ArrayList<>();
@@ -58,9 +60,14 @@ public class Auto {
 			
 			if (lista.get(x).registro == lista.get(x+1).registro) {
 				
+				a++;
+				
+				
+			}
+		
+			if (a == lista.size()-1) {
+				
 				return "Auto original";
-				
-				
 			}
 		return "Las piezas no son originales";	
 	}
