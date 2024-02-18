@@ -53,7 +53,10 @@ public class Auto {
 			
 		}
 			
-		for (int x = 0 ; x < lista.size(); x++) {
+							
+				
+	} 
+		for (int x = 0 ; x < lista.size(); x++) 
 			
 			if (lista.get(x).registro == lista.get(x+1).registro) {
 				
@@ -61,9 +64,6 @@ public class Auto {
 				
 				
 			}
-					
-		}		
-	} 		
 		return "Las piezas no son originales";	
 	}
 }
