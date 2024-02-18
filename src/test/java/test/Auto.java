@@ -19,15 +19,13 @@ public class Auto {
 		
 		int contador = this.asientos.length;
 		
-		for (int i =0; i < contador; i++) {
+		for (int i = 0; i < contador; i++) {
 			
 			if (this.asientos[i] instanceof Asiento) {
 				
 				numAsientos++;
 				
-			}
-				
-				
+			}				
 							
 	}
 		return numAsientos;
@@ -42,7 +40,7 @@ public class Auto {
 		
 		if (this.motor.registro == this.registro) {
 			
-			for (int j =0; j < cont; j++) {
+			for (int j = 0; j < cont; j++) {
 				
 				if (this.asientos[j] instanceof Asiento) {
 					
@@ -56,7 +54,7 @@ public class Auto {
 							
 				
 	} 
-		for (int x = 0 ; x < lista.size(); x++) 
+		for (int x = 0 ; x < lista.size()-1; x++) 
 			
 			if (lista.get(x).registro == lista.get(x+1).registro) {
 				
