@@ -8,9 +8,12 @@ public class Asiento {
 	
 	void cambiarColor ( String color_auto) {
 		
-		if (color_auto == "blanco" || color_auto == "rojo" || color_auto == "amarillo" || color_auto == "verde" || color_auto == "negro");
-		
+		if (color_auto == "blanco" || color_auto == "rojo" || color_auto == "amarillo" || color_auto == "verde" || color_auto == "negro") {
+			
 			this.color = color_auto;
+		}
+		
+			
 		
 	}
 		
