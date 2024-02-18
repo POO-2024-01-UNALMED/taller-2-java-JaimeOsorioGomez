@@ -23,9 +23,11 @@ public class Auto {
 			
 			if (this.asientos[i] instanceof Asiento) {
 				
+				numAsientos++;
+				
 			}
 				
-				numAsientos++;
+				
 							
 	}
 		return numAsientos;
